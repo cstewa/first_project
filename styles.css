@@ -1,13 +1,87 @@
+html {
+	background-image: url('img/Water Color2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
 body {
-	font-family: Courier
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif; 
+}
+
+.main {
+	width: 400px;
+	height: 80px;
+	margin: 10px auto 20px 0px;
+	padding: .5px 60px;
 }
 
 h1 {
-	color: #00E5EE;
+	color: #FFFFFF;
+	font-size: 35px;
+	margin-bottom: -20px;
+	margin-top: 15px;
+	text-align: center;
 }
 h2 {
-	color: #FF3E96;
+	color: #E7E2D9;
+	font-size: 20px;
+	text-align: right;
+	margin-left: 50px;
 }
 .first_part {
 	color: #9400D3;
 }
+.linked_in {
+	height: 20px;
+	width: 20px;
+	position: fixed;
+}
+.twitter {
+	height: 20px;
+	width: 20px;
+	position: fixed;
+	margin-left:20px;
+}
+.tumblr {
+	height: 20px;
+	width: 20px;
+	position: fixed;
+	margin-left:40px;
+}
+p {
+	color: #FFFFFF;
+}
+ul {
+	color: #FFFFFF;
+}
+.career {
+	width: 500px;
+	margin-left: 20px; 
+}
+.about_me {
+	line-height: 20px;
+	margin-top: 5px;
+}
+.me {
+	float: left;
+	margin-left: 170px;
+	border:solid;
+	border-color: #FFFFFF;
+}
+h3 {
+	color: #FFFFFF;
+	margin-bottom: -2px;
+}
+.skills {
+	margin-left: 450px;
+}
+.skills_list {
+	line-height: 20px;
+	margin-top: 5px;
+}
+.contact {
+	margin-left: 700px; 
+}
+.contact_txt {
+	text-align: left;
+}
+
