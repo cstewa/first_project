@@ -3,75 +3,175 @@ html {
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
+
 body {
 	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif; 
 }
 
 .main {
-	width: 400px;
+	width: 300px;
 	height: 80px;
-	margin: 10px auto 20px 0px;
+	margin: 10px auto;
 	padding: .5px 60px;
+	border: solid;
+	border-color: #8B8386;
+	border-radius: 15px;
+	background-color: #8B8386;
+}
+
+.big_div {
+	background-color: #303030;
+	width:950px;
+	height: 550px;
+	border-radius: 15px;
+	margin-left: 20px;
+	overflow: hidden;
+}
+
+.about {
+	width: 630px;
+	height: 125px;
+	margin-top: 23px;
+	border-radius: 15px;
+	background-color: #8B8386;
+	margin-left: 250px;
+	padding: 23px;
+}
+
+.about h2 {
+	text-align: left;
+	float: left;
+	margin-top: 40px;
+	margin-left: -1px;
+	color: #303030;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.about p {
+	color: #F2F2F2;
+	margin: -25px 2px 15px 95px;
+	padding: 15px;
+	line-height: 22px;
 }
 
 h1 {
-	color: #FFFFFF;
-	font-size: 35px;
+	color: #F2F2F2;
+	font-size: 32px;
 	margin-bottom: -20px;
 	margin-top: 15px;
 	text-align: center;
 }
+
+
 h2 {
 	color: #E7E2D9;
 	font-size: 20px;
 	text-align: right;
 	margin-left: 50px;
 }
-.first_part {
-	color: #9400D3;
+
+.skills {
+	width: 630px;
+	height: 105px;
+	margin-top: 20px;
+	border-radius: 15px;
+	background-color: #8B8386;
+	margin-left: 250px;
+	padding: 23px;
 }
+
+.skills h2 {
+	text-align: left;
+	float: left;
+	margin-top: 40px;
+	margin-left: -1px;
+	color: #303030;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.skills p {
+	color: #F2F2F2;
+	margin-left: 105px;
+	margin-top: 25px;
+	font-size: 30px;
+}
+
+.skills ul li {
+	float: left;
+	padding: 5px;
+	font-size: 30px;
+}
+
+.skills span {
+	float: left;
+	margin-left: 10px;
+	font-size: 25px;
+	margin-top: 32px;
+}
+
+.span {
+	margin-left: 150px;
+	color: #F2F2F2;
+	margin-top: 7px;
+}
+
+.contact {
+	width: 675px;
+	height: 140px;
+	border-radius: 15px;
+	background-color: #8B8386;
+	margin-left: 250px;
+	margin-top: 20px;
+}
+
+.contact h2{
+	text-align: left;
+	float: left;
+	margin-top: 53px;
+	margin-left: 20px;
+	color: #303030;
+	font-weight: bold;
+	font-size: 25px;
+}
+
 .linked_in {
-	height: 20px;
-	width: 20px;
-	position: fixed;
+	height: 60px;
+	width: 60px;
+	margin-left: 140px;
+	margin-top: 45px;
+	padding-right: 20px;
 }
+
 .twitter {
-	height: 20px;
-	width: 20px;
-	position: fixed;
-	margin-left:20px;
+	height: 60px;
+	width: 60px;
 }
-.tumblr {
-	height: 20px;
-	width: 20px;
-	position: fixed;
-	margin-left:40px;
-}
-p {
+
+/*p {
 	color: #FFFFFF;
 }
 ul {
 	color: #FFFFFF;
-}
-.career {
-	width: 500px;
-	margin-left: 20px; 
-}
-.about_me {
-	line-height: 20px;
-	margin-top: 5px;
-}
+}*/
+
+
 .me {
 	float: left;
-	margin-left: 170px;
+	margin-left: 25px;
+	margin-top: 23px;
 	border:solid;
 	border-color: #FFFFFF;
+	height: 500px;
+	width: 200px;	
+	border-radius: 15px;
 }
 h3 {
 	color: #FFFFFF;
 	margin-bottom: -2px;
 }
-.skills {
+/*.skills {
 	margin-left: 450px;
 }
 .skills_list {
@@ -83,5 +183,5 @@ h3 {
 }
 .contact_txt {
 	text-align: left;
-}
+}*/
 
