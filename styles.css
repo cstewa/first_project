@@ -148,14 +148,18 @@ h2 {
 	height: 60px;
 	width: 60px;
 }
-
-/*p {
-	color: #FFFFFF;
+.span a {
+	text-decoration: none;
+	color: #F2F2F2;
 }
-ul {
-	color: #FFFFFF;
-}*/
+.span a:hover {
+	color: #CD69C9;
+}
 
+.span a:visited {
+	color: #8470FF;
+	text-decoration: none;
+}
 
 .me {
 	float: left;
@@ -171,17 +175,5 @@ h3 {
 	color: #FFFFFF;
 	margin-bottom: -2px;
 }
-/*.skills {
-	margin-left: 450px;
-}
-.skills_list {
-	line-height: 20px;
-	margin-top: 5px;
-}
-.contact {
-	margin-left: 700px; 
-}
-.contact_txt {
-	text-align: left;
-}*/
+
 
